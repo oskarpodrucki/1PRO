@@ -1,0 +1,135 @@
+body {
+    margin: 0px;
+    background-color: #f4f4f8;
+}
+
+/*GŁÓWNE*/
+
+#gra {
+    display: block;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    height: 70vh;
+    width: 100%;
+    background-color: #f4f4f8;
+    border-bottom: 1px #e6e6ea;
+}
+
+#okno {
+    position: absolute;
+    top: 120px;
+    right: 750px;
+    height: 400px;
+    width: 400px;
+    background-color: #fed766;
+    color: black;
+    text-align: center;
+    border-radius: 25px;
+    cursor: pointer;
+    border: 2px solid black
+}
+
+/*Flaga*/
+
+img {
+    width: 275px;
+    border-radius: 25px;
+    border: 1px solid black
+}
+
+/*Przycisk sprawdzający*/
+
+#buttonspr {
+    position: absolute;
+    height: 30px;
+    width: 75px;
+    background-color: #fe4a49;
+    border-radius: 99px;
+    cursor: pointer;
+}
+
+/*Input*/
+
+#input {
+    height: 25px;
+    width: 200px;
+    background-color: #f4f4f8;
+    border-radius: 99px;
+    cursor: pointer;
+}
+
+/*INTERFEJS*/
+#interfejs {
+    position: absolute;
+    bottom: 0px;
+    height: 30vh;
+    width: 100%;
+    background-color: #fe4a49;
+}
+
+/*PRZYCISK ZACZYNAJĄCY*/
+#button {
+    position: absolute;
+    top: 90px;
+    right: 820px;
+    height: 100px;
+    width: 300px;
+    background-color: #fed766;
+    border-radius: 99px;
+    cursor: pointer;
+}
+
+/*Życia*/
+#zyc {
+    position: absolute;
+    bottom: 75px;
+    left: 300px;
+    height: 150px;
+    width: 375px;
+    background-color: #fed766;
+    color: black;
+    text-align: center;
+    border-radius: 50px;
+    border: 2px solid black
+}
+
+#zyc1 {
+    position: absolute;
+    bottom: 23px;
+    left: 37px;
+    height: 100px;
+    width: 300px;
+    background-color: #f4f4f8;
+    color: black;
+    text-align: center;
+    border-radius: 50px;
+    border: 2px solid black
+}
+
+/*PUNKTY*/
+#pun {
+    position: absolute;
+    bottom: 75px;
+    right: 300px;
+    height: 150px;
+    width: 375px;
+    background-color: #fed766;
+    color: black;
+    text-align: center;
+    border-radius: 50px;
+    border: 2px solid black
+}
+
+#pun1 {
+    position: absolute;
+    bottom: 23px;
+    right: 37px;
+    height: 100px;
+    width: 300px;
+    background-color: #f4f4f8;
+    color: black;
+    text-align: center;
+    border-radius: 50px;
+    border: 2px solid black
+}
