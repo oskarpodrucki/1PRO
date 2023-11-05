@@ -1,0 +1,73 @@
+#JEDEN {
+    color:rgb(0, 0, 255);
+}
+#DWA {
+    color:rgb(255, 0, 0);
+}
+#TRZY {
+    color:rgb(0, 255, 64);
+}
+
+h2 {
+    color:green;
+}
+
+h3 {
+    color:yellow;
+}
+
+h4 {
+    color:red;
+}
+
+h5 {
+    color:purple;
+}
+
+h6 {
+    color:brown;
+}
+
+p {
+    color:rgb(255, 0, 0);
+    font-size: 100px;
+}
+
+.TYDZIEŃ {
+    color:cyan;
+    background-color: rgb(42, 116, 255);
+}
+.kolor{
+    color:rgb(0, 0, 255);
+    background-color: rgb(91, 255, 219);
+}
+
+.Kol {
+    color:blue;
+    background-color: cadetblue;
+}
+.Size {
+    font-size: 120px;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(204, 255, 255);
+}
+
+li:hover{
+    background-color: white;
+    font-size: 50px;
+    transition: 0.5s;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 10px;
+    
+}
+
+.centre{
+
+     text-align: center;
+     border: 2px solid rgb(0, 0, 0);
+      
+}
+

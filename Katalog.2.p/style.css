@@ -1,0 +1,54 @@
+body{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 25vh 100vh 25vh;
+    grid-template-areas: 
+    "nag nag"
+    "tres menu"
+    "stop stop";
+}
+
+#div1{
+    border: 2px solid red;
+    grid-area: nag;
+    background-color: rgb(0, 255, 42);
+}
+
+#div2{
+    border: 2px solid red;
+    grid-area: menu;
+    background-color: rgb(255, 217, 0);
+}
+
+#div3{
+    border: 2px solid red;
+    grid-area: tres;
+    background-color: rgb(255, 196, 0);
+}
+
+#div4{
+    border: 2px solid red;
+    grid-area: stop;
+    background-color: rgb(0, 255, 98);
+}
+
+
+#div1:hover{
+    font-size: 25px;
+    background-color: aliceblue;
+    }
+    
+    #div2:hover{
+        font-size: 25px;
+        background-color: aliceblue;
+        }
+    
+        #div3:hover{
+            font-size: 25px;
+            background-color: aliceblue;
+            }
+    
+            #div4:hover{
+                font-size: 25px;
+                background-color: aliceblue;
+                }

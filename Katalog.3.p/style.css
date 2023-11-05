@@ -1,0 +1,55 @@
+body{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 25vh 100vh 25vh;
+    grid-template-areas: 
+    "nag nag"
+    "tres menu"
+    "stop stop";
+}
+
+
+#tresc1{
+    border: 2px solid red;
+    grid-area: nag;
+    background-color: rgb(0, 255, 21);
+}
+
+#tresc2{
+    border: 2px solid red;
+    grid-area: menu;
+    background-color: rgb(255, 238, 0);
+}
+
+#tresc3{
+    border: 2px solid red;
+    grid-area: tres;
+    background-color: rgb(255, 238, 0);
+}
+
+#tresc4{
+    border: 2px solid red;
+    grid-area: stop;
+    background-color: rgb(0, 255, 21);
+}
+
+#tresc1:hover{
+font-size: 25px;
+background-color: aliceblue;
+}
+
+#tresc2:hover{
+font-size: 25px;
+ background-color: aliceblue;
+}
+
+#tresc3:hover{
+ font-size: 25px;
+ background-color: aliceblue;
+}
+
+ #tresc4:hover{
+font-size: 25px;
+background-color: aliceblue;
+}
+            

@@ -1,0 +1,47 @@
+body{
+    margin: 0px
+}
+
+body{
+    display: grid;
+    grid-template-columns: 5% 95%;
+    grid-template-rows: 5vh 95vh;
+    grid-template-areas: 
+    "min max"
+    "min max"
+    "min max";
+}
+
+#div1{
+    border: 2px solid red;
+    grid-area: min;
+    background-color: rgb(255, 238, 0);
+}
+
+#div2{
+    border: 2px solid red;
+    grid-area: max;
+    background-color: rgb(255, 238, 0);
+}
+
+#div1:hover{
+    background-color: aliceblue;
+    }
+
+#div1:hover{
+    background-color: aliceblue;
+    }
+
+input{
+    display:block;
+    margin: 10px;
+    padding: 100px
+}
+#a{
+    display:block
+}
+
+#b{
+    margin: 10px;
+    padding: 32px;
+}

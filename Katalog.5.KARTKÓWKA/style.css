@@ -1,0 +1,33 @@
+body{
+    margin: 0px;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 10vh 90vh;
+    grid-template-areas:
+    nag nag  
+    men glo
+    men glo;   
+}
+
+#div1{
+    background-color: rgb(243, 0, 0);
+    grid: nag;
+}
+
+#div2{
+    background-color: rgb(243, 0, 0);
+    grid: nag;
+}
+
+#div3{
+    background-color: rgb(255, 123, 0);
+    grid: men;
+}
+
+#div4{
+    background-color: rgb(238, 255, 0);
+    grid: glo;
+}

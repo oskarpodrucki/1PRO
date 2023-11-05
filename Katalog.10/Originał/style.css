@@ -1,0 +1,109 @@
+body{
+    margin: 0px;
+    background-color:  #f4f4f8;
+
+    overflow: hidden;
+    /*
+    box-sizing: border-box;
+
+    display:grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 80vh 20vh;
+    grid-template-areas: 
+    "gra"
+    "interfejs";
+    */
+}
+
+
+/* Do grida
+#gra{
+    grid-area: gra;
+    background-color: gray;
+}
+
+#interfejs{
+    grid-area: gra;
+    background-color: aliceblue;
+}
+*/
+
+/* Główne*/ 
+
+#div1{
+    position: absolute;
+    top: 0px;
+    height: 70vh;
+    width: 100%;
+    background-color: #f4f4f8;
+    border-bottom: 1px #e6e6ea;
+}
+
+#div2{
+    position: absolute;
+    bottom: 0px;
+    height: 30vh;
+    width: 100%;
+    background-color: #fe4a49;
+}
+
+/* Okienko Gra */
+
+/* Pojawianie się krajów */
+
+#kraj1{
+    position: absolute;
+    top: 120px;
+    right: 300px;
+    height: 400px;
+    width: 400px;
+    background-color: #fed766;
+    color:black;
+    text-align: center;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+#kraj2{
+    position: absolute;
+    top: 120px;
+    left: 300px;
+    height: 400px;
+    width: 400px;
+    background-color: #fed766;
+    color:black;
+    text-align: center;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+#odp{
+    position: absolute;
+    top: 220px;
+    right: 850px;
+    height: 200px;
+    width: 200px;
+    background-color: #fed766;
+    border-radius: 69px;
+}
+
+img{
+    width: 350px;
+    border-radius: 90px;
+   
+}
+
+
+/* Interfejs */
+
+#button{
+    position: absolute;
+    top: 90px;
+    right: 820px;
+    height: 100px;
+    width: 300px;
+    background-color: #fed766;
+    border-radius: 99px;
+    cursor: pointer;
+}
+

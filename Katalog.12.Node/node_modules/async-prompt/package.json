@@ -1,0 +1,35 @@
+{
+  "name": "async-prompt",
+  "version": "1.0.1",
+  "description": "simple terminal user input 'co'",
+  "main": "index.js",
+  "keywords": [
+    "terminal",
+    "console",
+    "prompt",
+    "confirm",
+    "password",
+    "mask",
+    "async",
+    "promise"
+  ],
+  "devDependencies": {
+    "should": "~1.2.2",
+    "mocha": "~1.10.0"
+  },
+  "author": {
+    "name": "yeliex",
+    "email": "yeliex@yeliex.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "keypress": "~0.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yeliex/async-prompt.git"
+  },
+  "engines": {
+    "node": ">=4.8.7"
+  }
+}

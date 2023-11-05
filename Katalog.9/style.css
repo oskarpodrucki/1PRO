@@ -1,0 +1,16 @@
+/* body*/
+body {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+/* Kolor divów */
+div {
+    background-color: orange;
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    text-align: center;
+}
