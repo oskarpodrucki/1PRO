@@ -1,0 +1,240 @@
+body {
+    margin: 0px;
+
+    display: grid;
+    grid-template-areas: "kan" "int";
+    grid-template-columns: 100%;
+    grid-template-rows: 65vh 35vh;
+}
+
+/*Kandydaci*/
+#main1 {
+    grid-area: kan;
+    background-color: #fed766;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 75px;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2c0e09d490df88b639860cbe9893c6b9fd7ad109
+}
+
+.kandydat {
+    border-radius: 25px;
+    width: 450px;
+    height: 450px;
+
+    background-Color: #e6e6ea;
+    border: 5px solid #f4f4f8;
+
+}
+
+.foto {
+    border-radius: 50px;
+    width: 223px;
+}
+
+.partia {
+    position: absolute;
+    border-radius: 50px;
+    width: 223px;
+}
+
+.imie {
+    height: 40px;
+    width: 440px;
+    background-color: #f4f4f8;
+    color: black;
+    text-align: center;
+    border-radius: 50px;
+    border: 2px solid black
+}
+
+.partianazwa {
+    height: 40px;
+    width: 440px;
+    background-color: #f4f4f8;
+    color: black;
+    text-align: center;
+    border-radius: 50px;
+    border: 2px solid black
+}
+
+.wybieram {
+    height: 40px;
+    width: 250px;
+    background-color: #f4f4f8;
+    border-radius: 90px;
+    cursor: pointer;
+}
+
+
+/*Interfejs*/
+#main2 {
+    grid-area: int;
+    background-color: #fe4a49;
+    border-top: 3px solid #e6e6ea;
+}
+
+/*Przejście do strony admina*/
+
+/*Logowanie do admina*/
+#admin{
+    display: block;
+    align-items: center;
+    position: absolute;
+    left: 50px;
+    bottom: 10px;
+    height: 300px;
+    width: 175px;
+    background-color: #fed766;
+    color: black;
+    text-align: center;
+    border-radius: 50px;
+    border: 2px solid black
+}
+
+/*Login*/
+#user{
+    height: 25px;
+    width: 125px;
+    background-color: #f4f4f8;
+    border-radius: 90px;
+    cursor: pointer;
+}
+
+/*Hasło*/
+#pass{
+    height: 25px;
+    width: 125px;
+    background-color: #f4f4f8;
+    border-radius: 90px;
+    cursor: pointer;
+}
+
+/*Przycisk zatwierdzający*/
+#gotoadmin{
+    height: 25px;
+    width: 125px;
+    background-color: #f4f4f8;
+    border-radius: 90px;
+    cursor: pointer;
+}
+
+/*Obrazek*/
+#adminfoto{
+    position: absolute;
+    bottom: 15px;
+    left: 35px;
+    width: 135px;
+}
+
+/*Wpisywanie peselu*/
+
+/*Informacja*/
+#info {
+    position: absolute;
+    bottom: 235px;
+    left: 520px;
+    height: 75px;
+    width: 875px;
+    background-color: #f4f4f8;
+    color: black;
+    text-align: center;
+    border-radius: 50px;
+    border: 2px solid black
+}
+
+/*Input*/
+#input {
+    position: absolute;
+    bottom: 145px;
+    left: 825px;
+    height: 50px;
+    width: 250px;
+    background-color: #f4f4f8;
+    border-radius: 90px;
+    cursor: pointer;
+}
+
+/*ButtonP*/
+#buttonP {
+    position: absolute;
+    bottom: 95px;
+    left: 905px;
+    height: 50px;
+    width: 100px;
+    background-color: #f4f4f8;
+    border-radius: 90px;
+    cursor: pointer;
+}
+
+/*Button*/
+#buttonG {
+    position: absolute;
+    bottom: 15px;
+    left: 905px;
+    height: 50px;
+    width: 100px;
+    background-color: #f4f4f8;
+    border-radius: 90px;
+    cursor: pointer;
+}
+
+/*Wyświetlanie peselu*/
+#pes {
+    position: absolute;
+    bottom: 75px;
+    left: 300px;
+    height: 150px;
+    width: 375px;
+    background-color: #fed766;
+    color: black;
+    text-align: center;
+    border-radius: 50px;
+    border: 2px solid black
+}
+
+#pes1 {
+    position: absolute;
+    bottom: 23px;
+    left: 37px;
+    height: 100px;
+    width: 300px;
+    background-color: #f4f4f8;
+    color: black;
+    text-align: center;
+    border-radius: 50px;
+    border: 2px solid black
+}
+
+/*Wyświetlanie Kandydata*/
+#kan {
+    position: absolute;
+    bottom: 75px;
+    right: 300px;
+    height: 150px;
+    width: 375px;
+    background-color: #fed766;
+    color: black;
+    text-align: center;
+    border-radius: 50px;
+    border: 2px solid black
+}
+
+#kan1 {
+    position: absolute;
+    bottom: 23px;
+    right: 37px;
+    height: 100px;
+    width: 300px;
+    background-color: #f4f4f8;
+    color: black;
+    text-align: center;
+    border-radius: 50px;
+    border: 2px solid black
+}

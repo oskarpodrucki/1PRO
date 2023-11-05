@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wybory 2025 - Strona administratora</title>
+  <link rel="stylesheet" href="admstyle.css">
+</head>
+
+<body>
+  <!--Interfejs-->
+  <div id="int" onload="winKan()">
+    <h1 id="nag1">Interfejs</h1>
+    <h1 id="ktoW">Witaj w panelu Admina</h1>
+
+    <img
+      src="D:\Sz\Programowanie\Projekt\Glosowanie_2025\Voting_app_2025\wazne\fotos\250px-Flag_of_Poland_(normative).svg.png"
+      alt="Flaga Polski z godłem" id="zdjF">
+
+
+    <h1 id="nag1_4" onclick="openKlientHTML()">Wróć do klienta</h1>
+    <h1 id="nag1_5">Aktualny prowadzący:</h1>
+    <h1 id="nag1_6">ILOŚĆ_GŁOSÓW</h1>
+    <h1 id="nag1_7">Prowadzący</h1>
+  </div>
+  <!--Główne-->
+  <div id="dan">
+
+    <div>
+      <canvas id="myChart"></canvas>
+    </div>
+
+    <div id="table">
+      
+    </div>
+
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="adm.js"></script>
+</body>
+
+</html>
