@@ -1,0 +1,153 @@
+body {
+    margin: 0px;
+
+    display: grid;
+    grid-template-areas: "int dan";
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 100vh;
+}
+
+
+/* Interfejs */
+#int{
+    grid-area: int;
+    background-color: #fe4a49;
+    border-right: 3px solid #e6e6ea;
+}
+
+/* Aktualny prowadzący */
+#prowadzący{
+    position: absolute;
+    left: 50px;
+    top: 165px;
+    border-radius: 25px;
+    width: 450px;
+    height: 450px;
+
+    background-Color: #e6e6ea;
+    border: 5px solid #f4f4f8;
+
+}
+
+#zdjk {
+    border-radius: 50px;
+    width: 223px;
+}
+
+#zdjp {
+    position: absolute;
+    border-radius: 50px;
+    width: 223px;
+}
+
+#imie {
+    height: 40px;
+    width: 440px;
+    background-color: #f4f4f8;
+    color: black;
+    text-align: center;
+    border-radius: 50px;
+    border: 2px solid black
+}
+
+#partianazwa {
+    height: 40px;
+    width: 440px;
+    background-color: #f4f4f8;
+    color: black;
+    text-align: center;
+    border-radius: 50px;
+    border: 2px solid black
+}
+
+/* Nagłówki */
+#nag1{
+    position: absolute;
+    left: 60px;
+    top: 10px;
+    height: 40px;
+    width: 440px;
+    background-color: #f4f4f8;
+    color: black;
+    text-align: center;
+    border-radius: 50px;
+    border: 2px solid black
+}
+
+#ktoW{
+    position: absolute;
+    left: 60px;
+    top: 80px;
+    height: 40px;
+    width: 440px;
+    background-color: #f4f4f8;
+    color: black;
+    text-align: center;
+    border-radius: 50px;
+    border: 2px solid black
+}
+
+
+
+#nag1_2{
+    position: absolute;
+    left: 60px;
+    bottom: 180px;
+    height: 40px;
+    width: 440px;
+    background-color: #f4f4f8;
+    color: black;
+    text-align: center;
+    border-radius: 50px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+#nag1_3{
+    position: absolute;
+    left: 60px;
+    bottom: 120px;
+    height: 40px;
+    width: 440px;
+    background-color: #f4f4f8;
+    color: black;
+    text-align: center;
+    border-radius: 50px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+#nag1_4{
+    position: absolute;
+    left: 60px;
+    bottom: 20px;
+    height: 40px;
+    width: 440px;
+    background-color: #f4f4f8;
+    color: black;
+    text-align: center;
+    border-radius: 50px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+
+/* Dane */
+#dan{
+    grid-area: dan;
+    background-color: #fed766;
+
+}
+
+#nag2{
+    position: absolute;
+    left: 1050px;
+    top: 10px;
+    height: 40px;
+    width: 440px;
+    background-color: #f4f4f8;
+    color: black;
+    text-align: center;
+    border-radius: 50px;
+    border: 2px solid black
+}

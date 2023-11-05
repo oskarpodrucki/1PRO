@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wybory 2025</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!--Kandydaci-->
+    <div id="main1">
+
+        <!--Kandydat 1-->
+        <div class="kandydat">
+            <!--Zdjęcia kandydata-->
+            <img src="C:\Users\oskar.podrucki\Desktop\oko\wazne\fotos\biedron.jpg"
+                class="foto">
+            <!--Zdjęcie partii kandydata-->
+            <img src="C:\Users\oskar.podrucki\Desktop\oko\wazne\fotos\lewica.jpg"
+                class="foto">
+            <!--Imię i nazwisko kandydata-->
+            <h1 class="imie">Robert Biedroń</h1>
+            <!--Partia Kandydata-->
+            <h1 class="partianazwa">Lewica</h1>
+            <!--Przycisk do głosowania-->
+            <button class="wybieram" onclick="wybBiedron()">Wybieram cię</button>
+        </div>
+
+        <!--Kandydat 2-->
+        <div class="kandydat">
+            <!--Zdjęcia kandydata-->
+            <img src="C:\Users\oskar.podrucki\Desktop\oko\wazne\fotos\mentzen.jpg"
+                class="foto">
+            <!--Zdjęcie partii kandydata-->
+            <img src="C:\Users\oskar.podrucki\Desktop\oko\wazne\fotos\nowanadzieja.jpg"
+                class="foto">
+            <!--Imię i nazwisko kandydata-->
+            <h1 class="imie">Sławomir Mentzen</h1>
+            <!--Partia Kandydata-->
+            <h1 class="partianazwa">Nowa nadzieja</h1>
+            <!--Przycisk do głosowania-->
+            <button class="wybieram" onclick="wybMentzen()">Wybieram cię</button>
+        </div>
+
+        <!--Kandydat 3-->
+        <div class="kandydat">
+            <!--Zdjęcia kandydata-->
+            <img src="C:\Users\oskar.podrucki\Desktop\oko\wazne\fotos\morawiecki.jpg"
+                class="foto">
+            <!--Zdjęcie partii kandydata-->
+            <img src="C:\Users\oskar.podrucki\Desktop\oko\wazne\fotos\pis.jpg"
+                class="foto">
+            <!--Imię i nazwisko kandydata-->
+            <h1 class="imie">Mateusz Morawiecki</h1>
+            <!--Partia Kandydata-->
+            <h1 class="partianazwa">Prawo i Sprawiedliwość</h1>
+            <!--Przycisk do głosowania-->
+            <button class="wybieram" onclick="wybMorawiecki()">Wybieram cię</button>
+        </div>
+
+    </div>
+
+
+    <!--Interfejs-->
+    <div id="main2">
+
+        <!--Przejście do strony admina-->
+        <div id="admin">
+            
+            <!--Tekst-->
+            <p>Logowanie do admina</p>
+            <!--Login-->
+            <input id="user" type="text">
+            
+            <!--Hasło-->
+            <input id="pass" type="password">
+            
+            <!--Logowanie-->
+            <button id="gotoadmin" onclick="openAdmin()">Zaloguj się</button>
+
+            <!--Obrazek-->
+            <img id="adminfoto" src="C:\Users\oskar.podrucki\Desktop\oko\wazne\fotos\admin.png">
+        </div>
+
+        <!--Wpisanie peselu-->
+        <div>
+            <!--Przycisk-->
+            <div id="info">
+                <h1>Wpisz swój pesel aby zagłosować</h1>
+            </div>
+            <!--Input-->
+
+            <input id="input" type="text">
+
+            <!--Przycisk-->
+
+            <button id="button" onclick="peselIns()">Wyślij Pesel</button>
+        </div>
+
+        <!--Wejście do admina-->
+        <div>
+
+
+        </div>
+
+        <!--Twój pesel; wyświetlanie pesela-->
+        <div id="pes">
+
+            <div id="pes1">
+                <p>Pesel:
+                <p id="pes2">Nie wpisałeś peselu</p>
+                </p>
+            </div>
+
+        </div>
+
+        <!--Twój kandydat; wyświetlanie kandydata-->
+        <div id="kan">
+
+            <div id="kan1">
+                <p>Twój kandydat:
+                <p id="kan2">Nie wybrałeś kandydata</p>
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
