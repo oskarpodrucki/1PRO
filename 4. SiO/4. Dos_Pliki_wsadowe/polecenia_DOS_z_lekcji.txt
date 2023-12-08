@@ -1,0 +1,53 @@
+
+copy con mail.txt
+galazkafranek1@gmail.com
+^Z
+
+dir
+copy franek.txt + mail.txt FG.txt
+dir
+copy FG.txt con
+type FG.txt
+md PRO
+dir
+copy *.txt PRO
+cd PRO
+
+dir \
+dir c:\Windows
+dir c:\Windows > win.txt
+ 
+cls
+dir 
+
+type win.txt
+find "DIR" win.txt
+find "DIR" win.txt > win1.txt  
+find "Sy" win1.txt 
+find "DIR" win.txt | find "Sy"   
+type win.txt
+help
+find /?
+
+find "DIR" win.txt /V
+find "DIR" win.txt /V | find "p"
+
+echo franek
+echo franek > f.txt
+type f.txt
+
+dir
+type FG.txt
+echo ___________ >> FG.txt
+dir 
+type FG.txt
+find "_" /V > FG1.txt
+find "_" /V FG.txt > FG1.txt
+type FG1.txt
+echo ________________________ >> FG1.txt
+copy FG1.txt FG.txt
+
+type FG.txt
+doskey /?
+doskey /history
+doskey /history > dos.txt
